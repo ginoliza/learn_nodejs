@@ -17,7 +17,7 @@ La función `writeFile` del módulo `fs` acepta tres parámetros:
 {{< highlight type="js" wrap="true">}}
 const fs = require("fs");
 
-fs.writeFile('message.txt', "testing fs.writefile", (err) => {
+fs.writeFile('message.txt', "mensaje nuevo", (err) => {
   if (err) throw err;
   console.log('The file has been saved!');
 });
